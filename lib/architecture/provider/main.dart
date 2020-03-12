@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import '../../ExampleLists.dart';
 import './Counter.dart' as Counter;
+import './Shopper/main.dart';
 
 final examples = [
   Counter.example,
+  Shopper.example,
 ];
 
 class Provider extends StatelessWidget {

@@ -1,11 +1,19 @@
 import 'package:flutter/material.dart';
-import './architecture/main.dart';
-import './case/main.dart';
 import './ExampleLists.dart';
+import './architecture/main.dart';
+import './adaptation/main.dart';
+import './case/main.dart';
+import './network//main.dart';
+import './widget/main.dart';
+import './theme/main.dart';
 
 final examples = [
+  Adaptation.example,
   Architecture.example,
   Case.example,
+  Network.example,
+  ThemeExamples.example,
+  WidgetExamples.example,
 ];
 
 void main() => runApp(App());
